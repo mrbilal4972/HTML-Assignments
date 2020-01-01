@@ -1,0 +1,83 @@
+h1{
+    padding: 30px 250px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(73, 17, 36);
+    color: blanchedalmond;
+    border: 3px solid blanchedalmond;
+    border-radius: 9px;
+}
+
+.year{
+    position: relative;
+    left: 125px;
+}
+.month{
+    padding: 13px 40px;
+    background-color: rgb(136, 74, 74);
+    width: 10%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid blanchedalmond;
+    color: blanchedalmond;
+
+}
+    /* jan */
+
+.j:hover div.jan {
+    display: block;
+}
+.j div.jan{
+    display: none;
+    position: absolute;
+    left: 18%;
+    top: 10px;
+}
+.j:hover div.month{
+    background-color: brown;
+}
+.j table{
+    background-image: url('./image_4b/4.jpeg');
+    background-size: cover;
+}
+
+
+    /* feb */
+
+.f:hover div.feb {
+    display: block;
+}
+.f div.feb{
+    display: none;
+    position: absolute;
+    left: 18%;
+7    top: 10px;
+}
+.f:hover div.month{
+    background-color: brown;
+}
+.f table{
+    background-image: url('./image_4b/4.jpeg');
+    background-size: cover;
+}
+
+
+table, td{
+    border: 2px solid white;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: bold;
+    color: white;
+}
+td{
+    width: 100px;
+    height: 60px;
+}
+span{
+    font-size: 11px;
+    vertical-align: baseline;
+    background-color: black;
+    color: yellowgreen;
+}

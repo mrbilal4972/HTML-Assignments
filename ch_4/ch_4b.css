@@ -1,0 +1,29 @@
+body {
+    background-image: url('./image_4b/1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+.head h1{
+    text-align: center;
+}
+button{
+    background-color: rgb(110, 0, 110);
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(176, 6, 182);
+    box-shadow: 2px 4px rgb(255, 129, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+p{
+
+}
+select{
+    padding: 4px 47px;
+}
+.rel{
+    position: relative;
+    left: 100px;
+    top: 130px;
+}
