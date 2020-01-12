@@ -1,3 +1,80 @@
+/* Contacts bar */
+
+.top{
+    background-color: black;
+    padding: 5px 0px 5px 10px;
+}
+.top .logo{
+    width: 23px;
+    height: 23px;
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: rgb(100, 100, 100);
+    padding: 4px 4px;
+}
+.top a{
+    color: rgb(200, 200, 200);
+    font-weight: 1000;
+    font-size: 11px;
+
+}
+.inline{
+    color: white;
+    width: 8%;
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    text-align: center;
+}
+.inline button{
+   padding: 2px 17px;
+   font-weight: bolder;
+   background-color: rgb(68, 184, 68);
+   color: white;
+   border-radius: 5px;
+}
+
+/* ///////////////////////////////////////// */
+
+/* Title bar */
+
+#title>table{
+    float: right;
+    /* text-align: center; */
+    padding: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    
+    }
+    #title>table td{
+    padding: 0px 10px;
+    }
+    #title>table td:hover{
+    font-weight: bold;
+    border-bottom: 3px solid rgb(207, 152, 1);
+    cursor: pointer;
+    }
+    #title{
+        padding-top: 20px;
+    }
+    #title .lnks{
+        text-decoration: none;
+        color: black;
+    }
+    .t{
+        /* padding: 20px; */
+        font-size: 10px;
+        text-decoration: none;
+    
+    
+    }
+    /* ////////////////////////////// */
+
+/* WE ARE EXPERT */
+
 div#a{
     background-color: hsl(88, 49%, 50%);
     padding: 100px 0px;
@@ -29,6 +106,10 @@ div#a>button{
     font-size: 20px;
 
 }
+/* //////////////////////////////// */
+
+/* Advantage */
+
 div#b{
     padding: 30px;
     text-align: center;
@@ -38,6 +119,10 @@ div#b{
    display: inline-block;
 
 }
+/* /////////////////////// */
+
+/* ABOUT US */
+
 div#c{
     background-image: url('./images/about/about_us.png');
     background-size: 100% 100%;
@@ -65,6 +150,10 @@ div#c>button{
     border-radius: 10px;
     margin: 40px;
 }
+/* ///////////////////////// */
+
+/* Our Services */
+
 div#d{
     text-align: center;
 }
@@ -83,6 +172,10 @@ div#d{
 .d_a>p a:link{
     color: green;
 }
+/* //////////////////////////// */
+
+/* OUR PORTFOLIO */
+
 #e{
     background-color: black;
     color: white;
@@ -107,6 +200,10 @@ div#d{
      height: 62%;
 
 }
+/* ////////////////////////// */
+
+/* PROCESS */
+
 #f{
     text-align: center;
 
@@ -117,6 +214,10 @@ div#d{
     display: inline-block;
     padding: 30px 0px;
 }
+/* /////////////////////// */
+
+/* PEOPLE ABOUT US */
+
 #g{
 text-align: center;
 background-color: rgb(240, 240, 240);
@@ -144,6 +245,10 @@ border-bottom: 1px solid black;
 div.l{
 border-left: 1px solid black;
 }
+/* ////////////////////////// */
+
+/* OUR SKILLS */
+
 #h{
 text-align: center;
 padding: 30px;
@@ -152,6 +257,104 @@ padding: 30px;
 width: 80%;
 padding: 40px;
 }
+/* ////////////////////// */
+
+/* OFFER */
+
+#js{
+    text-align: center;
+    font-size: 22px;
+}
+.pkg{
+    text-align: center;
+    width: 32%;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 19px;
+
+}
+.pkg:hover{
+    /* position: relative;
+    top: 20px; */
+    transform:scale(1.02,1.02);
+    border: 3px solid palegreen;
+    box-shadow: 2px -4px rgb(201, 236, 201);
+}
+#allPkgs{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    padding: 14px;
+    box-sizing: border-box;
+}
+.pkg button{
+    position: relative;
+    top: 20px;
+    width: 60%;
+    padding: 5px 0;
+    background-color: palegreen;
+    font-weight: bold;
+    border: 2px solid palegreen;
+    border-radius: 4px;
+}
+.pkg button:hover{
+    transform: scale(1.1,1.1);
+}
+.pkg button:active{
+    transform: scale(0.999,0.999);
+}
+.pkg:hover h2{
+    background-color: palegreen;
+    
+}
+#chkout1{
+    display: none;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align: center;  
+    background-color: rgb(228, 228, 228);
+    padding: 20px 0px;
+}
+.bkgd{
+    width: 40%;
+    background-color: rgb(245, 241, 220);
+    border: 1px solid white;
+    margin: auto;
+}
+.bkgd table{
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+}
+.bkgd .left{
+    text-align: left;
+    padding: 2px 0px 2px 30px;
+}
+.bkgd .right{
+    text-align: right;
+    padding: 2px 20px 2px 0px;
+}
+.bkgd button.pay{
+    padding: 8px 20%;
+    background-color: rgb(240, 102, 51);
+    border: 2px solid rgb(240, 102, 51);
+    border-radius: 4px;
+    box-shadow: 2px 3px gray;
+    margin: 5%;
+    font-weight: bold;
+}
+.net{
+    font-size: larger;
+    color: orangered;
+    font-weight: bold;
+}
+/* ///////////////////////////// */
+
+/* NEW PROJECT */
 #i{
 background-color: hsl(88, 49%, 50%);
 color: white;
@@ -159,6 +362,10 @@ text-align: center;
 padding: 40px;
 font-size: 25px;
 }
+/* ///////////////////////////// */
+
+/* OUR CONTACTS */
+
 #i>p{
 padding-top: 40px;
 margin-right: 30%;
@@ -211,12 +418,18 @@ padding-bottom: 30px;
 padding-top: 30px;
 
 }
-#k>img{
+
+#k iframe{
 /* background-image: url("./images/map/map_1.png");
 background-repeat: no-repeat; */
-max-width: 100%;
-height: auto;
+width: 100%;
+height: 400;
 }
+
+/* ////////////////////////// */
+
+/* Copyrights */
+
 #l{
 background-color: rgba(96, 131, 0, 0.904);
 padding: 20px;
@@ -243,6 +456,7 @@ margin: 10px 0px 0px 0px;
 }
 div.l>ul a{
 color: white;
+text-decoration: none;
 }
 img.l_i{
 width: 20px;
@@ -253,37 +467,11 @@ padding-top: 30px;
 width: 120px;
 height: 60px;
 }
-#title>table{
-float: right;
-/* text-align: center; */
-padding: 40px 40px 40px 40px;
-text-transform: uppercase;
+/* ////////////////////////// */
 
-}
-#title>table td{
-padding: 0px 10px;
-}
-#title>table td:hover{
-font-weight: bold;
-border-bottom: 3px solid rgb(207, 152, 1);
-}
-#title{
-    padding-top: 20px;
-}
-.t{
-    padding: 20px;
-    font-size: 100px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-        
-}
-/* .fb {
-    background:yellow;
-    color: white;
-  } */
-.top{
-    background-color: black;
-}
+
+
+
+
+
+
